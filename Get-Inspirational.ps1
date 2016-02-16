@@ -1,4 +1,5 @@
 ﻿function Get-Inspired() {
+    # steal from https://github.com/LaureKamalandua/get-inspired
     $APIurl = 'http://www.forismatic.com/api/1.0/'
     $client = New-Object System.Net.WebClient
     $client.Headers.Add("Content-Type", "application/x-www-form-urlencoded")
